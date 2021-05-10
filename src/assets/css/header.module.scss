@@ -1,0 +1,258 @@
+/* header css begin */
+:root {
+  --text-color: white;
+  --background-color: black;
+  --accent-color: #ffb600;
+}
+.header {
+  font-weight: 700;
+}
+body {
+  margin: 0;
+  font-family: "Noto Sans KR";
+  font-weight: 500;
+  animation: fadein 1000ms ease-out;
+  -moz-animation: fadein 1000ms ease-out; /* Firefox */
+  -webkit-animation: fadein 1000ms ease-out; /* Safari and  Chrome */
+  -o-animation: fadein 1000ms ease-out; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
+}
+.HeaderBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 0 1em;
+  height: 100px;
+}
+
+.navbar_logo > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_logo > a > img {
+  width: 80px;
+  height: auto;
+}
+.navbar_logo > a > p {
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.navbar_menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.125rem;
+}
+.navbar_login {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  // padding-left: 0;
+  font-size: 1.125rem;
+}
+#category :hover {
+  text-decoration: none;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.navbar_menu li {
+  padding: 0.2em 0.5em;
+}
+
+.navbar_icons {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.navbar_icons li {
+  list-style: none;
+}
+.navbar_toggleBtn {
+  margin-top: 0.875em;
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+}
+.drop {
+  margin: 3em;
+  display: flex;
+  background-color: #ffb600;
+}
+#dropdown-basic {
+  margin: 3em;
+  display: flex;
+  background-color: #ffb600;
+  color: #ffb600;
+}
+::after {
+  display: none;
+}
+.dropDown_box > a {
+  color: black !important;
+}
+/* media begin*/
+@media screen and (max-width: 50.938em) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+
+    height: auto;
+  }
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar_menu > li {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar_logo > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar_logo > a > img {
+    width: 80px;
+    height: auto;
+  }
+  .navbar_logo > a > p {
+    color: white;
+    font-size: 1.375rem;
+    font-weight: 700;
+  }
+  .navbar_icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar_icons > li {
+    padding: 0.5em;
+  }
+  .navbar_toggleBtn {
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    position: absolute;
+    margin: 0;
+  }
+  .navbar_icons.active,
+  .navbar_menu.active {
+    display: flex;
+  }
+  #category :hover {
+    text-decoration: none;
+    border-bottom: 3px solid var(--accent-color);
+  }
+}
+
+@media screen and (max-width: 37.875em) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    justify-content: center;
+  }
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar_menu > li {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar_logo > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+  .navbar_logo > a > img {
+    width: 45px;
+    height: auto;
+  }
+  .navbar_logo > a > p {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+  .navbar_icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar_icons > li {
+    padding: 0.5em;
+  }
+  .navbar_toggleBtn {
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    position: absolute;
+    margin: 0;
+  }
+  .navbar_icons.active,
+  .navbar_menu.active {
+    display: flex;
+  }
+  #category :hover {
+    text-decoration: none;
+    border-bottom: 3px solid var(--accent-color);
+  }
+}
