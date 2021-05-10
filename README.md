@@ -6,7 +6,7 @@
 ___
 
 
-URL: <bethelight.kr>
+URL:<http://bethelight.kr/>
 
 Library: React
 Hosting: Firebase
