@@ -23,6 +23,7 @@ URL: <http://bethelight.kr/>
 ___
 Home
 -------------
-<img width="500px" height="450px">![image](https://user-images.githubusercontent.com/67785225/117905408-14835f00-b30e-11eb-9267-c8f08e5a6912.png)
+
+![image](https://user-images.githubusercontent.com/67785225/117905522-47c5ee00-b30e-11eb-9af2-a4fd16859b28.png){: width="" height=""}
 </img>
 
