@@ -25,3 +25,25 @@ Home
 -------------
 
 ![image](https://user-images.githubusercontent.com/67785225/117905858-d470ac00-b30e-11eb-9cfc-cb882c87d6aa.png)
+
+
+   
+About
+-------------
+![image](https://user-images.githubusercontent.com/67785225/117905998-10a40c80-b30f-11eb-9cec-03e9e77ec803.png)
+![image](https://user-images.githubusercontent.com/67785225/117906044-21ed1900-b30f-11eb-9dd8-b0455c74c5cf.png)
+![image](https://user-images.githubusercontent.com/67785225/117906060-2a455400-b30f-11eb-9f3c-43d0bb5d4dd3.png)
+   
+      
+Product
+-------------
+![image](https://user-images.githubusercontent.com/67785225/117906100-3cbf8d80-b30f-11eb-9536-1200a805fc48.png)
+      
+Social
+-------------
+![image](https://user-images.githubusercontent.com/67785225/117906120-477a2280-b30f-11eb-9265-c53b685910fb.png)
+
+Join
+-------------
+![image](https://user-images.githubusercontent.com/67785225/117906303-9b850700-b30f-11eb-841e-b5fcd572adcf.png)
+
