@@ -24,6 +24,4 @@ ___
 Home
 -------------
 
-![image](https://user-images.githubusercontent.com/67785225/117905522-47c5ee00-b30e-11eb-9af2-a4fd16859b28.png){: width="400" height="400"}
-
-
+<img src=![image](https://user-images.githubusercontent.com/67785225/117905686-8b205c80-b30e-11eb-800b-f352acea3744.png) width="300" height="300">
