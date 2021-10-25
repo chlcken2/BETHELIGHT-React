@@ -1,4 +1,4 @@
-# BETHELIGHT-homepage
+# BETHELIGHT-homepage_react
 
 
 ### 2021. 04 부터 BETHELIGHT 홈페이지를 만들었습니다.
